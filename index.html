@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Stake</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+    body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+
+    body, html {
+      height: 100%;
+      line-height: 1.8;
+    }
+
+    /* Full height image header */
+    .bgimg-1 {
+      background-position: center;
+      background-repeat:no-repeat;
+      background-image: url("Stake.jpeg");
+      min-height: 100%;
+    }
+
+    .w3-bar .w3-button {
+      padding: 16px;
+    }
+    </style>
+  </head>
+<body>
+
+<!-- bar top -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-card" id="myNavbar">
+    <a href="#home" class="w3-bar-item w3-button w3-wide" style="font-size:20px"><b><i>Stake</i></b></a>
+    <!-- Right-sided navbar links -->
+    <div class="w3-right w3-hide-small">
+      <a href="#about" class="w3-bar-item w3-button"><b>ABOUT</b></a>
+       <a href="apps.html" onclick="w3_close()" class="w3-bar-item w3-button"><b>Apps</b></a>
+      <a href="python.html" class="w3-bar-item w3-button"><b> Python</b></a>
+      <a href="#C/C++" class="w3-bar-item w3-button"> <b>C/C++</b></a>
+      <a href="java.html" class="w3-bar-item w3-button"><b> Java</b></a>
+      <a href="html.html" class="w3-bar-item w3-button"><b> Html</b></a>
+    </div>
+    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+</div>
+
+<!-- bar on phone -->
+<nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
+  <a href="#about" onclick="w3_close()" class=" w3-bar-item w3-button">ABOUT</a>
+  <a href="apps.html" onclick="w3_close()" class="w3-bar-item w3-button">Apps</a>
+  <a href="python.html" onclick="w3_close()" class="w3-bar-item w3-button">Python</a>
+  <a href="#C/C++" onclick="w3_close()" class="w3-bar-item w3-button">C/C++</a>
+  <a href="#Java" onclick="w3_close()" class="w3-bar-item w3-button">Java</a>
+  <a href="html.html" onclick="w3_close()" class="w3-bar-item w3-button">Html</a>
+
+</nav>
+
+<!-- Header with full-height image -->
+<header class="bgimg-1 w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-left w3-text-white" style="padding:48px">
+    <span class="w3-jumbo w3-hide-small"></span><br>
+    <span class="w3-xxlarge w3-hide-large w3-hide-medium"></span><br>
+    <span class="w3-large"></span>
+    <p><a href="#about" class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off"></a></p>
+  </div> 
+  <div class="w3-display-bottomleft w3-text-grey w3-large" style="padding:24px 48px">
+    
+ <a style="text-decoration: none;" href="https://www.instagram.com/stakepg/"> </a><i class="fa fa-instagram w3-hover-opacity"></i>
+   <a style="text-decoration: none;" href="https://twitter.com/stakepgtdx"> </a><i class="fa fa-twitter w3-hover-opacity"></i>
+  <a style="text-decoration: none;" href="https://www.youtube.com/channel/UCzcPa3sXSBAvZM3QzFsUcWw"> </a> <i class="fa fa-youtube w3-hover-opacity"></i>
+  
+  </div>
+</header>
+
+<!-- About Section -->
+<div class="w3-container" style="padding:128px 16px" id="about">
+  <h3 class="w3-center" style="font-size:39px" ><b>ABOUT THE STAKE</b></h3>
+  <div class="w3-row-padding w3-center" style="margin-top:64px">
+    <div class="w3-quarter">
+      <i class="fa fa-desktop w3-margin-bottom w3-jumbo w3-center"></i>
+      <p class="w3-large">Use Of Stake</p>
+      <p>This website will help you Guys to  learn programming languages and it will help to learn operating system </p>
+    </div>
+    <div class="w3-quarter">
+      <i class="fa fa-heart w3-margin-bottom w3-jumbo"></i>
+      <p class="w3-l<arge">Passion</p>
+      <p>Aahil,Bilal,Ishan We are the creators of the Stake,we are studying in 6th and our passion is Programming</p>
+    </div>
+    <div class="w3-quarter">
+      <i class="fa fa-cog w3-margin-bottom w3-jumbo"></i>
+      <p class="w3-large">Support</p>
+      <p>We Would Like to Thank W3.School for giving us an opportunity to make this website</p>
+    </div>
+    <div class="w3-quarter"> <i class="fa fa-diamond w3-margin-bottom w3-jumbo"></i> <p class="w3-large">Conclude</p> <p>We Hope You like our Website Thank you for visiting Stake</p> </div>
+  </div>
+</div>
+
+
+
+<!-- Promo Section "Statistics" -->
+<div class="w3-container w3-row w3-center w3-dark-grey w3-padding-64">
+  <div class="w3-quarter">
+    <span class="w3-xxlarge">3+</span>
+    <br>Partners
+  </div>
+  <div class="w3-quarter">
+    <span class="w3-xxlarge">200+</span>
+    <br>Projects Done
+  </div>
+  <div class="w3-quarter">
+    <span class="w3-xxlarge">5+</span>
+    <br>Programming languages
+  </div>
+  <div class="w3-quarter">
+    <span class="w3-xxlarge">59+ Days</span>
+    <br>Days to build Stake
+</div>
+
+
+
+
+<!-- Team Section -->
+<div class="w3-container" style="padding:128px 16px" id="AHIL">
+  <h3 class="w3-center">THE TEAM</h3>
+  <p class="w3-center w3-large">The ones who runs this Stake</p>
+  <div class="w3-row-padding w3-grayscale" style="margin-top:64px">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        
+        <div class="w3-container">
+          <h3>Aahil Ahmed</h3>
+          <p class="w3-opacity">Owner&Software engineer</p>
+          
+
+        </div>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+       
+        <div class="w3-container" class="w3-center">
+          <h3>Bilalahmed</h3>
+          <p class="w3-opacity">Owner&Web developer</p>
+          
+        
+        </div>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+     
+        <div class="w3-container">
+          <h3>Ishan rahman</h3>
+          <p class="w3-opacity">Owner&Management</p>
+        
+          
+        </div>
+      </div>
+    </div>
+
+
+ 
+      </div>
+    </div>
+  </div>
+</div>
+<BR>
+<br>
+<br>
+
+
+
+
+
+
+
+
+<!-- Modal for full size images on click-->
+<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+  <span class="w3-button w3-xxlarge w3-black w3-padding-large w3-display-topright" title="Close Modal Image">×</span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <img id="img01" class="w3-image">
+    <p id="caption" class="w3-opacity w3-large"></p>
+  </div>
+</div>
+
+<!-- Skills Section -->
+<div class="w3-container w3-light-grey w3-padding-64">
+  <div class="w3-row-padding">
+    <div class="w3-col m6">
+      <h3>What is Programming</h3>
+      <p>A programming language is any set of rules that converts strings, or graphical program elements in the case of visual programming languages, to various kinds of machine code output. Programming languages are one kind of computer language, and are used in computer programming to implement algorithms.
+
+Most programming languages consist of instructions for computers. There are programmable machines that use a set of specific instructions, rather than general programming languages. Since the early 1800s, programs have been used to direct the behavior of machines such as Jacquard looms, music boxes and player pianos.[1] The programs for these machines (such as a player piano's scrolls) did not produce different behavior in response to different inputs or conditions.Thousands of different programming languages have been created, and more are being created every year. Many programming languages are written in an imperative form (i.e., as a sequence of operations to perform) while other languages use the declarative form (i.e. the desired result is specified, not how to achieve it).</p>
+     
+     
+      <h3>What language can you learn on this website?</h3>
+     
+      <p>Java,Html,Python,Java Script and C++,Java is used as the server-side language for most back-end development projects, including those involving big data and Android development. Java is also commonly used for desktop computing, other mobile computing, games, and numerical computing,Html=HTML (Hypertext Markup Language) is the code that is used to structure a web page and its content. For example, content could be structured within a set of paragraphs, a list of bulleted points, or using images and data tables,Python = Python is a computer programming language often used to build websites and software, automate tasks, and conduct data analysis. Python is a general purpose language, meaning it can be used to create a variety of different programs and isn't specialized for any specific problems,Java Script = JavaScript (JS) is a lightweight, interpreted, or just-in-time compiled programming language with first-class functions. While it is most well-known as the scripting language for Web pages, many non-browser environments also use it, such as Node.js, Apache CouchDB and Adobe Acrobat,C++ = The programming language known as C++ (or “C-plus-plus”) is a general purpose coding language which has been used for game programming, software engineering, data structures, developing browsers, operating systems, applications, and more for over forty years.</p>
+    </div>
+    <div class="w3-col m6">
+      <p class="w3-wide"></i>Team Work</p>
+      <div class="w3-grey">
+        <div class="w3-container w3-dark-grey w3-center" style="width:100%">100%</div>
+      </div>
+      <p class="w3-wide"></i>Web Design</p>
+      <div class="w3-grey">
+        <div class="w3-container w3-dark-grey w3-center" style="width:96%">96%</div>
+      </div>
+     
+      
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+<!-- Footer. This section contains an ad for W3Schools Spaces. You can leave it to support us. -->
+<footer class="w3-center w3-black w3-padding-64">
+  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <div class="w3-xlarge w3-section">
+  
+ <a style="text-decoration: none;" href="https://www.instagram.com/stakepg/"> <i class="fa fa-instagram w3-hover-opacity"></i>
+   <a style="text-decoration: none;" href="https://twitter.com/stakepgtdx"><i class="fa fa-twitter w3-hover-opacity"></i>
+  <a style="text-decoration: none;" href="https://www.youtube.com/channel/UCzcPa3sXSBAvZM3QzFsUcWw">  <i class="fa fa-youtube w3-hover-opacity"></i>
+ 
+  </div>
+ 
+</footer>
+ 
+<script>
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+
+// Toggle between showing and hiding the sidebar when clicking the menu icon
+var mySidebar = document.getElementById("mySidebar");
+
+function w3_open() {
+  if (mySidebar.style.display === 'block') {
+    mySidebar.style.display = 'none';
+  } else {
+    mySidebar.style.display = 'block';
+  }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+    mySidebar.style.display = "none";
+}
+</script>
+
+</body>
+</html>
